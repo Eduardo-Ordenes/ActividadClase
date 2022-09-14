@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/Actividad_ClaseP1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Actividad_ClaseP1/app/src/main/res/layout/activity_main2.xml" value="0.1796875" />
+        <entry key="..\:/AndroidStudioProjects/Actividad_ClaseP1/app/src/main/res/layout/activity_main_inicio.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/Actividad_ClaseP1/app/src/main/res/layout/activity_progress_bar.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Actividad_ClaseP1/app/src/main/res/layout/activity_secondary.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Actividad_ClaseP1/app/src/main/res/layout/activity_secondary2.xml" value="0.1796875" />
       </map>
     </option>
   </component>

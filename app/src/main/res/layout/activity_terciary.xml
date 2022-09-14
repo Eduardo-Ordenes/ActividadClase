@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     android:backgroundTint="#121111"
     android:orientation="vertical"
-    tools:context=".ProgressBar">
+    tools:context=".Activity_terciary">
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="47dp"
-        android:text="TextView" />
+        android:gravity="center"
+        android:textSize="26dp"
+        android:text="Hola" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -37,15 +39,23 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="83dp"
-        android:backgroundTint="#F10303"
-        android:indeterminateTint="#FD0404"
+        android:indeterminateTint="#F10404"
+        android:max="100"
+
+        android:progress="50"
+        android:progressTint="#F10A0A"
         android:secondaryProgressTint="#D8FFFFFF" />
 
     <ProgressBar
         android:id="@+id/progressBar4"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
-        android:layout_height="81dp" />
+        android:layout_height="81dp"
+        android:indeterminate="true"
+        android:indeterminateTint="#0B0A0A"
+        android:max="100"
+        android:progress="50"
+        android:progressTint="#070707" />
 
     <ProgressBar
         android:id="@+id/progressBar5"
@@ -60,10 +70,13 @@
 
         <RatingBar
             android:id="@+id/ratingBar"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:isIndicator="false"
-            android:numStars="5" />
+            android:isIndicator="true"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:translationX="80sp" />
 
         <RadioButton
             android:id="@+id/radioButton2"
@@ -80,7 +93,11 @@
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
             android:text="Button" />
+
     </RadioGroup>
+
+
 </LinearLayout>
