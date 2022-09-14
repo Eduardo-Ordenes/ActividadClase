@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Actividad_ClaseP1</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtIngreseNom">Ingrese su nombre</string>
+    <string name="txtContra">Contraseña</string>
+    <string name="txtIngreCon">Ingrese su contraseña</string>
+    <string name="bntIngresar">Ingresar</string>
+    <string name="titulo">Myproject</string>
+    <string name="rbnHombre">Hombre</string>
+    <string name="rbnMujer">Mujer</string>
+</resources>
