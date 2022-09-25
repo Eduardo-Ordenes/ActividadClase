@@ -15,13 +15,20 @@ public class Activity_main extends AppCompatActivity {
     }
 
 
+    public void redirrecionar(View view){
+
+        Intent objMover = new Intent(this,Activity_terciary.class);
+        startActivity(objMover);
+
+    }
+
+
     public void moverActivity(View view){
 
         Intent objMover = new Intent(this,Activity_secondary.class);
         startActivity(objMover);
 
     }
-
 
 
 }
