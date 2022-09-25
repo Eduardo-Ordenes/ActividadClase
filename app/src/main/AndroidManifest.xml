@@ -31,8 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_main"
-            tools:ignore="DuplicateActivity" />
+
     </application>
 
 </manifest>
